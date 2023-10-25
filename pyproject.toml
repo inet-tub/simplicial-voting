@@ -1,0 +1,33 @@
+[tool.poetry]
+
+name = "simplicial-voting"
+version = "0"
+description = "Analyze voting systems in independence of irrelevant alternatives (IIA) setting."
+license = "MIT"
+authors = [
+	"Zeremonienmeister Berber <berber@zmberber.com>",
+	"Berthold Blatt Lorke <lorke@tu-berlin.de>",
+	]
+# homepage =
+# repository =
+# readme =
+# maintainers =
+# documentation =
+keywords = [
+	 "mathematics",
+	 "math",
+	 "maths",
+	 "simplicial complex",
+	 "social choice theory",
+	 "computational social choice theory",
+	 "comsoc",
+	 ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+simplicial = "^1.0.1"
+meson = "^1.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
